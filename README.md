@@ -10,9 +10,7 @@ The project ingests data from a live API, loads it into a cloud data lake (Azure
 
 This diagram shows the complete ELT process, from the raw data source to the final dashboard.
 
-![Data Flow Diagram](data-flow-diagram.png)
-![BI - Data Flow Diagram](BI-data-flow-diagram.png)
----
+![Data Flow Diagram](bi-data-flow-diagram.png)
 
 ### **🛠️ Tech Stack & Methodology**
 
@@ -58,3 +56,13 @@ This project requires a connection string to your Azure Storage Account. It is h
 *(For PowerShell in VS Code)*
 ```powershell
 $env:AZURE_STORAGE_CONNECTION_STRING="[your_full_connection_string_here]"
+
+## ⚖️ License
+
+This project is licensed under the MIT License.
+
+This means you are free to use, copy, modify, and distribute this code for your own projects.
+
+The only condition is that you **must include the original copyright notice (credit to Celestine Agropah) and a copy of the license text** with your work.
+
+You can see the full legal text in the `LICENSE` file, which just confirms that this software is provided "as-is" without warranty and that I am not liable for any issues.
