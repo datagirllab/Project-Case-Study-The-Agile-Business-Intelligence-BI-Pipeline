@@ -57,7 +57,7 @@ Here is how you can run this pipeline on your local machine.
     pip install -r requirements.txt
     ```
 
-#### **3. Set Up Your Environment Variable**
+### **3. Set Up Your Environment Variable**
 This project requires a connection string to your Azure Storage Account. It is handled securely using environment variables and **is not** stored in the code.
 
 **In your terminal**, set the following variable:
@@ -72,7 +72,7 @@ $env:AZURE_STORAGE_CONNECTION_STRING="[your_full_connection_string_here]"
 export AZURE_STORAGE_CONNECTION_STRING="[your_full_connection_string_here]"
 ```
 
-#### **4. Run the Pipeline**
+### **4. Run the Pipeline**
 
 1.  **Run the Ingestion Script (E-L):**
 This will fetch data from the FakeStoreAPI and upload the raw **carts.json** file to your **raw-data** container in Azure.
@@ -82,11 +82,11 @@ This will fetch data from the FakeStoreAPI and upload the raw **carts.json** fil
 This will read the raw JSON from Azure, run the SQL transformation, and upload the clean **daily_sales_summary.csv** file to your **processed-data** container
 ```python transform.py
 ```
-#### **5. View the Dashboard**
+### **5. View the Dashboard**
 You can now connect Power BI directly to the daily_sales_summary.csv file in your **processed-data** Azure container.
 
 ---
-#### ** 📃 License**
+## ** 📃 License**
 This project is licensed under the MIT License.
 
 This means you are free to use, copy, modify, and distribute this code for your own projects.
