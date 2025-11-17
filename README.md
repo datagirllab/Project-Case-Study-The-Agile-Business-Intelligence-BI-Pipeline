@@ -86,7 +86,7 @@ This will read the raw JSON from Azure, run the SQL transformation, and upload t
 You can now connect Power BI directly to the daily_sales_summary.csv file in your **processed-data** Azure container.
 
 ---
-📃 License
+📃 #### **License**
 This project is licensed under the MIT License.
 
 This means you are free to use, copy, modify, and distribute this code for your own projects.
